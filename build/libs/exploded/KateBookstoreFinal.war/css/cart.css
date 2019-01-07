@@ -1,0 +1,174 @@
+section{
+    min-height: 73%;
+    background-color: #DDEAF2;
+    justify-content: center;
+}
+
+p {
+    padding-bottom: 0 !important;
+}
+
+h2 {
+    padding: 0;
+}
+
+form {
+    float: none;
+}
+
+.cartbox {
+    border-radius: 5px;
+}
+
+.cartcontainer {
+    background-color: rgb(244, 244, 244);
+    border-radius: 5px;
+}
+
+#cart {
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    margin: 1em;
+    border-collapse: separate;
+}
+
+
+#order {
+    padding-left: 20px;
+}
+
+td {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+td:nth-child(1) {
+    width: 10%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-left: 1px solid #ccc;
+
+}
+
+td:nth-last-child(1) {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid #ccc;
+
+}
+
+tr {
+    min-height:fit-content;
+    padding: 1em;
+}
+
+
+
+.bottom {
+    vertical-align: middle;
+    border: 0 !important;
+}
+
+.bottom td {
+    border: 0 !important;
+}
+
+tr {
+    background-color: rgb(244, 244, 244);
+}
+
+.border{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+tr:nth-last-child(2){
+    visibility: collapse;
+}
+
+tr:nth-last-child(1){
+    height: 100px;
+}
+
+
+
+th, td:nth-child(n+3) {
+    text-align: center;
+    width: 200px;
+}
+
+.buttons {
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+
+
+.paddedtopbottom {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+
+.roundbtn
+{background-color: rgb(255, 203, 62);
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: #180E0C !important;
+    border-width: 0;
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.roundbtn:hover
+{   background-color: #ffe091;
+}
+
+
+.btnleft {
+    margin-bottom: 0px;
+}
+
+.btn {
+    float: right;
+}
+
+.start {
+    margin-left: 0em;
+}
+
+tr.between {
+    margin: .5em;
+    border: 0;
+    height: 10px;
+}
+
+.break {
+    border: 0 !important;
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    td:nth-child(1) {
+        width: 20%;
+    }
+
+
+
+    th, td:nth-child(n+3) {
+        text-align: center;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+
+    .btn {
+        font-size: 16px;
+    }
+}

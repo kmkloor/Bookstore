@@ -1,0 +1,21 @@
+
+table {
+    background-color: white;
+}
+
+.checkout {
+    min-width: 700px;
+}
+
+form{
+    margin: auto;
+}
+
+.btn {
+    float:none;
+    display: block;
+}
+
+#confirmation{
+    padding-bottom: 40px;
+}

@@ -1,0 +1,11 @@
+section{
+    height:70%;
+    flex-direction: row;
+}
+
+
+.checkout span {
+    width: 100%;
+    text-align: center;
+}
+

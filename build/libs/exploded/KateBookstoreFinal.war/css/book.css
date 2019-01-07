@@ -1,0 +1,49 @@
+
+section {
+    min-height: 70%;
+}
+
+.content {
+    margin:auto;
+    padding-bottom:50px;
+    width: 100%;
+}
+
+.bookbox{
+    max-width: 100%;
+}
+.bookinfo {
+    justify-content: center;
+}
+.title {
+    z-index:1;
+}
+
+.btn {
+    margin-left: 1em;
+    text-align: center;
+}
+
+.highlight {
+    transform: translateY(-20px);
+    position:relative;
+    height: 2em;
+    z-index: 1;
+    opacity: 1;
+}
+
+.bookblurb {
+    background: white;
+}
+
+.start {
+    margin-left: 0em;
+    width: fit-content;
+}
+
+.centeredhorizontally {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+}

@@ -1,0 +1,24 @@
+.highlight {
+     transform: translateY(-20px);
+     position:relative;
+     height: 2em;
+     z-index: 1;
+     opacity: 1;
+ }
+
+.bookblurb {
+    background: white;
+}
+
+.categorytitle {
+    padding-top: 2em;
+    padding-left: 1.9em;
+    justify-content: flex-start;
+}
+
+.lowlight {
+    transform: translateY(-25px);
+    position:relative;
+    height: 2em;
+    z-index: 1;
+}

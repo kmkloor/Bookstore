@@ -1,0 +1,25 @@
+section{
+    min-height: 73%;
+    justify-content: center;
+    flex-direction:row;
+}
+
+.selectMenu {
+    width: 45%;
+    margin: 10px;
+}
+
+.top{
+    color: #180E0C !important;
+    padding-top: 3em;
+    padding-bottom: 3em !important;
+}
+
+#checkouttitle {
+    padding-bottom: 0;
+}
+
+.textField {
+    font-size:16px !important;
+    text-align:left !important;
+}

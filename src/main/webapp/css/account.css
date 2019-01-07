@@ -1,0 +1,21 @@
+section{
+    min-height: 70%;
+    height: max-content;
+    padding-bottom: 10em;
+}
+
+
+#ordersummary {
+    height: 3em;
+    display: inline-block;
+}
+
+table {
+    background-color: white;
+}
+
+.confirmation {
+    padding-bottom: 0;
+    text-align: left;
+    padding-top: 1em;
+}

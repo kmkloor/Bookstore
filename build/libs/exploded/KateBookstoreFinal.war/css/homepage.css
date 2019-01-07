@@ -1,0 +1,97 @@
+.lastcontent {
+    margin-bottom:100px;
+}
+
+#loosetitle {
+    padding-top: 1em;
+    padding-left: 2.3em;
+}
+
+#intro {
+    font-size: 1.3em;
+    font-style: italic;
+    padding-top: 1em;
+    padding-bottom: 0;
+
+}
+
+#intro p {
+    padding-bottom: 0;
+}
+
+#authorblurb {
+    padding-top:2em;
+}
+.opacity {
+    opacity: 1;
+}
+
+.light{
+    color: white;
+}
+
+.dark{
+    color: #181412;
+}
+
+.clearbg {
+    background: #9CAEC6;
+}
+
+.navybg {
+    background: #616d7b;
+}
+
+.blackbg {
+    background: #180E0C;
+    background: linear-gradient(to bottom, #180E0C, #576472);
+}
+
+.pad_right {
+    padding-left: 2em;
+    padding-right: .5em;
+}
+
+.floatleft {
+    float: left;
+}
+
+.fitcontentheight {
+    height: max-content;
+    background: white;
+}
+
+.width40 {
+    max-width:40%;
+}
+
+.width60 {
+    max-width:60%;
+}
+
+.width25{
+    max-width:25%;
+}
+
+.width75 {
+    max-width:75%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .width40 {
+        display: none;
+    }
+
+    .width60 {
+        max-width: 100%;
+        padding: 1em;
+    }
+
+    .width25 {
+        max-width: 100%;
+    }
+
+    .width75 {
+        max-width: 100%;
+    }
+}
